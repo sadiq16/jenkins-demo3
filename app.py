@@ -9,7 +9,7 @@ def create_app():
 
     @app.route('/version', methods=['GET'])
     def version():
-        return "v1.0"
+        return "v2.0"
 
     @app.route('/health', methods=['GET'])
     def health():
